@@ -27,6 +27,7 @@ foreach ($movies as $movie => $names) {
             echo ", $name";
         }
         $count++;
+        echo "~~~"
     }
     echo ". <br>" . PHP_EOL;
-} // a
+}
